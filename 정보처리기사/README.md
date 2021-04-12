@@ -958,9 +958,7 @@ DRM관리기술 : `암호화, 키(식별), 정책관리, 인증, 크랙방지`
 8. SELECT 학번, 이름 FROM 학생 WHERE 학년 IN (3, 4);
 
 9. CREATE INDEX idx_name ON student(name);
-    - CREATE INDEX <index name> ON <table name>(column name1, column name2, ...);
-
----
+    - CREATE INDEX {index name} ON {table name}(column name1, column name2, ...); 
 
 10. 소프트웨어 보안의 취약점 중 하나인 SQL Injection에 대해 간략히 설명하시오.
     - 웹 응용 프로그램에 강제로 SQL 구문을 삽입하여 내부 데이터베이스 서버의 데이터를 유출 및 변조하고 관리자 인증을 우회하는 공격기법이다.
